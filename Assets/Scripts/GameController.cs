@@ -57,7 +57,7 @@ public class GameController : MonoBehaviour
     {
         musicController.PlayMusic("readyFight");
         yield return musicController.WaitForMusicFinished("readyFight");
-        musicController.PlayMusic("bgm");
+        //musicController.PlayMusic("bgm");
         PortController.status = GameStatus.fighting;
     }
 

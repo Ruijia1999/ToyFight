@@ -8,7 +8,7 @@ public class MusicController : MonoBehaviour
     public AudioClip aud_readyFight;
     public AudioClip aud_hit;
     public AudioClip aud_victory;
-    public AudioClip bgm;
+    //public AudioClip bgm;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,7 +38,7 @@ public class MusicController : MonoBehaviour
         {
             case "readyFight": return aud_readyFight;
             case "hit":return aud_hit;
-            case "bgm":return bgm;
+            //case "bgm":return bgm;
             case "victory":return aud_victory;
         }
         return null;

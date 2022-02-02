@@ -26,7 +26,7 @@ public class PortController : MonoBehaviour
     public static int winPlayer = 0;
     private SerialPort sp;
     private Thread receiveThread;  
-    public string portName = "COM3";
+    private string portName = "COM7";
     public int baudRate = 9600;
     public Parity parity = Parity.None;
     public int dataBits = 8;

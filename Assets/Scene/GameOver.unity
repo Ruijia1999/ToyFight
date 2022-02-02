@@ -385,7 +385,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cfc36394d43bbb04a95b73afe957d5da, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3d646b8308809e842b1f6296f42f75d8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -537,7 +537,6 @@ MonoBehaviour:
   aud_readyFight: {fileID: 0}
   aud_hit: {fileID: 0}
   aud_victory: {fileID: 8300000, guid: 8b580d0d748628f409c33b50c995ecf8, type: 3}
-  bgm: {fileID: 0}
 --- !u!82 &1025130391
 AudioSource:
   m_ObjectHideFlags: 0
@@ -646,7 +645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f880ecd6417b4044a88cb76d7989c26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portName: COM3
+  startMenu: {fileID: 0}
   baudRate: 9600
   parity: 0
   dataBits: 8
@@ -781,7 +780,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3d646b8308809e842b1f6296f42f75d8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cfc36394d43bbb04a95b73afe957d5da, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
